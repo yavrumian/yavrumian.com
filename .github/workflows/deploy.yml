@@ -47,4 +47,4 @@ jobs:
 
       - name: Deploy to GCS
         run: |
-          gsutil -m rsync -r -d public gs://yavrumian-com
+          gsutil -m rsync -r -d public gs://yavrumian.com
