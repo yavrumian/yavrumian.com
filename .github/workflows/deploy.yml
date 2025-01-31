@@ -31,7 +31,10 @@ jobs:
         run: cp ./cv/VaheYavrumyanCV.pdf ./public/cv.pdf
 
       - name: copy
-        run: echo ${{ secrets.GCP_PROJECT_ID }} | base64
+        run: |
+          gcloud auth list
+          gcloud auth describe
+
 
       - id: 'auth'
         uses: 'google-github-actions/auth@v2'
