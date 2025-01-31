@@ -47,4 +47,4 @@ jobs:
 
       - name: Deploy to GCS
         run: |
-          gsutil -m rsync -r -d public gs://your-bucket-name
+          gsutil -m rsync -r -d public gs://yavrumian-com
