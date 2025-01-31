@@ -30,10 +30,6 @@ jobs:
       - name: copy CV
         run: cp ./cv/VaheYavrumyanCV.pdf ./public/cv.pdf
 
-      - name: copy
-        run: |
-          gcloud auth list
-          gcloud auth describe
 
 
       - id: 'auth'
@@ -42,6 +38,10 @@ jobs:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY }}
       
+      - name: copy
+        run: |
+          gcloud auth list
+          gcloud auth describe
 
       - uses: 'google-github-actions/setup-gcloud@v2'
         with:
