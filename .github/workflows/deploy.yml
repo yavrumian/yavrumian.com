@@ -25,7 +25,7 @@ jobs:
         run: hugo --minify
 
       - name: copy CV
-        run: cp ./cv/* ./public
+        run: cp ./cv/VaheYavrumyanCV.pdf ./public/cv.pdf
 
       - id: 'auth'
         uses: 'google-github-actions/auth@v2'
