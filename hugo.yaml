@@ -227,6 +227,14 @@ params:
         content: "Microsoft Certified: Azure Administrator Associate"
         url: https://learn.microsoft.com/api/credentials/share/en-us/VaheYavrumyan-0559/56AD4BE90D2DD606?sharingId=E104A5C2BA010702
         image: /images/az104.png
+      - title: AZ-403
+        content: "Microsoft Certified: DevOps Engineer Expert"
+        url: https://learn.microsoft.com/api/credentials/share/en-us/VaheYavrumyan-0559/AB5B99A4F8E8CB6?sharingId=E104A5C2BA010702
+        image: /images/az400.png
+      - title: SAA-C03 
+        content: "AWS Certified: Solutions Architect Associate"
+        url: https://cp.certmetrics.com/amazon/en/public/verify/credential/fb6d5b0700fd459a97c7af1096c2b62c
+        image: /images/saax03.jpg
 
   # projects
   projects:
