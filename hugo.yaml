@@ -12,7 +12,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination:
+  pagerSize: 3
 enableRobotsTXT: true
 
 markup:
@@ -230,11 +231,11 @@ params:
       - title: AZ-403
         content: "Microsoft Certified: DevOps Engineer Expert"
         url: https://learn.microsoft.com/api/credentials/share/en-us/VaheYavrumyan-0559/AB5B99A4F8E8CB6?sharingId=E104A5C2BA010702
-        image: /images/az400.png
+        image: /images/az400.jpg
       - title: SAA-C03 
         content: "AWS Certified: Solutions Architect Associate"
         url: https://cp.certmetrics.com/amazon/en/public/verify/credential/fb6d5b0700fd459a97c7af1096c2b62c
-        image: /images/saax03.jpg
+        image: /images/saac03.jpg
 
   # projects
   projects:
